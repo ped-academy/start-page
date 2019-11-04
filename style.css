@@ -1,0 +1,24 @@
+body {
+    transition: all 200ms ease-in-out;
+}
+
+.bg-red {
+    background-color: #FF3F32;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#ped-logo {
+    height: 45px;
+    transition: all 200ms ease-in-out;
+}
+
+#ped-logo:hover {
+    height: 50px;
+    cursor: pointer;
+}
