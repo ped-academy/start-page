@@ -2,11 +2,17 @@ body {
     transition: all 200ms ease-in-out;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 .bg-red {
     background-color: #FF3F32;
 }
 
-.wrapper {
+#wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
